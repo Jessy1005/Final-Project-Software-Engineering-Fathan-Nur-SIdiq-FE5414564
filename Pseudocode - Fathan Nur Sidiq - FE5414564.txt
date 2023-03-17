@@ -1,0 +1,28 @@
+Library App (Apkikasi Peminjaman Buku Mahasiswa)
+
+Start
+
+DECLARE "itHasAccount" with boolean false
+
+WHILE "isHasAccount" equal false
+		PRINT "Berhasil Register"
+		STORE "isHasAccount" with "true"
+	
+PRINT "Login Berhasil"
+
+DECLARE "name" with "Fathan Nur Sidiq"
+DECLARE "npm" with "FE541456"
+DECLARE "semester" with 6
+
+DECLARE "bookTitle" with "Buku Belajar FrontEnd"
+
+WHILE "bookTitle" not equal "Buku Belajar FrontEnd"
+	PRINT "Buku yang anda cari belum tersedia, silahkan cari buku lain"
+
+IF "semester" less than or equal with 7"
+	PRINT "Berikut adalah struck peminjaman anda, silahkan berikan pada kasir di perpustakaan"
+	PRINT "name", "npm", "semester", "bookTitle"
+ELSE
+	PRINT "Maaf, buku tidak dapat dipinjam bagi mahasiswa di atas semester 7"
+
+Finish
