@@ -10,7 +10,7 @@ WHILE "isHasAccount" equal false
 	
 PRINT "Login Berhasil"
 
-DECLARE "name" with "JEHOVA Rifael Jefan Susim"
+DECLARE "name" with "Jehova Rifael Jefan Susim"
 DECLARE "npm" with "23.11.5856"
 DECLARE "semester" with 6
 
